@@ -50,11 +50,10 @@ function whatHouseCanIAfford(monthlyRentBudget){
     
 }
 
-
 function makeChart(){
     // set the data
     var rent = 1000; //later will be grabbed from what the user wants
-
+    
     //just doing budget to map, make it fully customizable
     //here we will get the percentages that they want
     var rentPercent = .10; //will actually get from input box
@@ -67,7 +66,8 @@ function makeChart(){
     var otherPercent = .5;
     var monthlyIncome = 10000; //will actually come from client side
     return(
-    <PieChart
+        <div>
+            <PieChart
         data={[
             // { title: 'One', value:10, color: '#E38627'},
             // { title: 'Two', value:15, color: '#F23427'},
@@ -81,8 +81,11 @@ function makeChart(){
             {title: "Entertainment", value: percentBudgetReturn(monthlyIncome, entertainmentPercent),color: '#E08627'},
             {title: "Other", value: percentBudgetReturn(monthlyIncome, otherPercent), color: '#B98627'},
         ]}
-    />);
+    />
+        </div>
+    );
 }
+
 export default makeChart;
 
 // anychart.onDocumentReady(function() {
