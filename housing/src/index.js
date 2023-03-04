@@ -17,8 +17,57 @@ kelly.render(
     <Kelly />
     <form>
       <label>
+        Rent:
+        <input type="text" name="rent" />
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+    <form>
+      <label>
+        Transportation:
+        <input type="text" name="transportation" />
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+    <form>
+      <label>
+        Food:
+        <input type="text" name="food" />
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+    <form>
+      <label>
         Utilities:
-        <input type="text" name="name" />
+        <input type="text" name="util" />
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+    <form>
+      <label>
+        Insurance:
+        <input type="text" name="insurance" />
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+    <form>
+      <label>
+        Savings:
+        <input type="text" name="savings" />
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+    <form>
+      <label>
+        Entertainment:
+        <input type="text" name="entertainment" />
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+    <form>
+      <label>
+        Other:
+        <input type="text" name="other" />
       </label>
       <input type="submit" value="Submit" />
     </form>
