@@ -16,60 +16,23 @@ kelly.render(
   <React.StrictMode>
     <Kelly />
     <form>
-      <label>
-        Rent:
-        <input type="text" name="rent" />
-      </label>
-      <input type="submit" value="Submit" />
-    </form>
-    <form>
-      <label>
-        Transportation:
-        <input type="text" name="transportation" />
-      </label>
-      <input type="submit" value="Submit" />
-    </form>
-    <form>
-      <label>
-        Food:
-        <input type="text" name="food" />
-      </label>
-      <input type="submit" value="Submit" />
-    </form>
-    <form>
-      <label>
-        Utilities:
-        <input type="text" name="util" />
-      </label>
-      <input type="submit" value="Submit" />
-    </form>
-    <form>
-      <label>
-        Insurance:
-        <input type="text" name="insurance" />
-      </label>
-      <input type="submit" value="Submit" />
-    </form>
-    <form>
-      <label>
-        Savings:
-        <input type="text" name="savings" />
-      </label>
-      <input type="submit" value="Submit" />
-    </form>
-    <form>
-      <label>
-        Entertainment:
-        <input type="text" name="entertainment" />
-      </label>
-      <input type="submit" value="Submit" />
-    </form>
-    <form>
-      <label>
-        Other:
-        <input type="text" name="other" />
-      </label>
-      <input type="submit" value="Submit" />
+      <label for="rent">Rent: </label>
+      <input type="text" id="rent" name="rent" /> <br></br>
+      <label for="transportaion">Transportation: </label>
+      <input type="text" id="transpormation" name="transportation" /> <br></br>
+      <label for="food">Food: </label>
+      <input type="text" id="food" name="food" /><br></br>
+      <label for="utilities">Utilities: </label>
+      <input type="text" id = "utilities" name="util" /><br></br>
+      <label for="insurance">Insurance: </label>
+      <input type="text" id = "insurance" name="insurance" /><br></br>
+      <label for="savings">Savings: </label>
+      <input type="text" id = "savings" name="savings" /><br></br>
+      <label for="entertainment">Entertainment: </label>
+      <input type="text" id="entertainment" name="entertainment" /><br></br>
+      <label for="other">Other: </label>
+      <input type="text" id="other" name="other" /><br></br>
+      <input type="submit" value="Submit" /><br></br>
     </form>
   </React.StrictMode>
 );
